@@ -2,28 +2,28 @@
 class Keystone < Formula
   desc "Keystone CLI — diagram and scan your Terraform infrastructure"
   homepage "https://keystone.page"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://keystone-cli-releases.s3.ap-southeast-2.amazonaws.com/cli/v0.3.0/keystone-darwin-arm64"
-      sha256 "39cc3b8fb328baf4d23ea1ca8b6fc8426a6bf5fa2f5bbb5573a5de079a4c7735"
+      url "https://keystone-cli-releases.s3.ap-southeast-2.amazonaws.com/cli/v0.4.0/keystone-darwin-arm64"
+      sha256 "e721f28688115c14427e8972a6dd0a1fbe6d434a8090549f0db2332c2a0a5d9e"
     end
     on_intel do
-      url "https://keystone-cli-releases.s3.ap-southeast-2.amazonaws.com/cli/v0.3.0/keystone-darwin-x64"
-      sha256 "681882c47b930d336691f6534b0cd89614c79b4bf9a6b47e052c4b8ee37f4efa"
+      url "https://keystone-cli-releases.s3.ap-southeast-2.amazonaws.com/cli/v0.4.0/keystone-darwin-x64"
+      sha256 "2dc4860554006e643e9342d3952d6d20672eefc84386f89aabd0a349cbc4db6a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://keystone-cli-releases.s3.ap-southeast-2.amazonaws.com/cli/v0.3.0/keystone-linux-arm64"
-      sha256 "ce5c94eb37aea68f798004c89dda974ad369e3c936446c99340f32221ab2b108"
+      url "https://keystone-cli-releases.s3.ap-southeast-2.amazonaws.com/cli/v0.4.0/keystone-linux-arm64"
+      sha256 "d7466246b0451cd22364628ef80b07e41dbea6221a217c4b344f0c10e89ff45d"
     end
     on_intel do
-      url "https://keystone-cli-releases.s3.ap-southeast-2.amazonaws.com/cli/v0.3.0/keystone-linux-x64"
-      sha256 "cc5f599be63898c272c7b0784389d260f56c6c65af02f0021bb6f55e27d4d778"
+      url "https://keystone-cli-releases.s3.ap-southeast-2.amazonaws.com/cli/v0.4.0/keystone-linux-x64"
+      sha256 "d9fefaf500b32817bb4cf4ddb2407860498b7aef63dfee9972e964af99a96a89"
     end
   end
 
